@@ -248,6 +248,29 @@ TOTAL TIME = 1.2ms
 
 FREQUENCY = 1/(1.2ms) = 833.33Hz)
 
+## DUTY CYCLE AND FREQUENCY CALCULATION :
+FOR PULSE AT 500
+
+TON = 2.1
+TOFF=2.1
+TOTAL TIME = 4.2
+Duty% = (2.1/4.2)*100=50%
+
+FOR PULSE AT 700
+
+TON = 1.7
+TOFF= 1.5
+TOTAL TIME = 3.2
+Duty% = (1.7/3.2)*100=53%
+
+
+FOR PULSE AT 900
+
+TON = 2.2
+TOFF= 2.4
+TOTAL TIME = 4.6
+Duty% = (2.2/4.6)*100=47%
+
 ## Output screen shots of proteus  :
  ![image](https://github.com/user-attachments/assets/d48ed122-6dab-4079-8233-1a9c7ee45493)
 
@@ -260,7 +283,3 @@ FREQUENCY = 1/(1.2ms) = 833.33Hz)
 
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
-
-
-
-
